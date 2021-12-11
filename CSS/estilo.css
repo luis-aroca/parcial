@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+p{
+	color:#040303;
+	font-family:tahoma;
+}
+.t1{
+	color:red;
+}
+.t2{
+	color:black;
+}
+.t3{
+	background:#95D1CC;
+	margin-left:400px;
+	margin-right:400px;
+}
+body{
+	background-image: url(../ING/fondo.jpg);
+	background-attachment:fixed;
+}
+.menu{
+	list-style:none;
+	padding:0;
+	background:#040303;
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+}
+.menu li a{
+	text-decoration:none;
+	color:white;
+	padding: 20px;
+	display:block;
+	padding-left: 90px;
+}
+.menu li{
+	display:inline-block;
+	text-align:center;
+}
+.menu li a:hover{
+	background:#2690BD;
+}
+	

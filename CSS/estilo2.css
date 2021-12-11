@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+p{
+	color:#F7F7F7;
+	font-family:tahoma;
+}
+.t1{
+	color:blue;
+}
+.t2{
+	color:white;
+}
+.t3{
+	color:yellow;
+}
+.t4{
+	color:green;
+}
+body{
+	background-image:url(../ING/Fondos%20paginas%20secundaria.jpg);
+	background-attachment:fixed;
+}
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #ab4493; 
+}
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #09ACF2; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #09ACF2; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #09ACF2; 
+  border-color: #09ACF2; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+.menu{
+	list-style:none;
+	padding:0;
+	background:#040303;
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+}
+.menu li a{
+	text-decoration:none;
+	color:white;
+	padding: 20px;
+	display:block;
+	padding-left: 90px;
+}
+.menu li{
+	display:inline-block;
+	text-align:center;
+}
+.menu li a:hover{
+	background:#2690BD;
+}
